@@ -1,6 +1,6 @@
 {
     "authFailed": "Failed to authenticate, username or password incorrect.",
-    "accountDisabled": "This account has been disabled. Please contact the administrator for more information.",
+    "accountDisabled": "Your account has been disabled. Please contact the administrator for more information.",
     "unauthorized": "You're not authorized to perform this action.",
     "success": "Success",
     "failed": "Failed"

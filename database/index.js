@@ -8,7 +8,7 @@
  * \=======================================================/
  */
 const Sequelize = require("sequelize");
-const configurationFile = require("../config/config.inc.json");
+const configurationFile = require("../config/server.config.json");
 if(!configurationFile.databaseInfo.mysqlHost) { console.log("[ERROR] No database hostname specified at ./config/config.inc.json"); process.exit(1);}
 if(!configurationFile.databaseInfo.mysqlUsername) { console.log("[ERROR] No database username specified at ./config/config.inc.json"); process.exit(1);}
 if(!configurationFile.databaseInfo.mysqlPassword) { console.log("[ERROR] No database password specified at ./config/config.inc.json"); process.exit(1);}

@@ -4,6 +4,6 @@
         "jwtSecretKey": "jwtSecretKey!0000",
         "jwtExpiration": "3h"
     },
-    "enableFormBody": false,
-    "useCookies": false
+    "useCookies": false,
+    "firstUserIsAdmin": true
 }
