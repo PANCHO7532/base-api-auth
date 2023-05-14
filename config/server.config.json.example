@@ -1,0 +1,11 @@
+{
+    "serverHost": "0.0.0.0",
+    "serverPort": 3000,
+    "databaseInfo": {
+        "mysqlHost": "example.com",
+        "mysqlPort": 3306,
+        "mysqlUsername": "username",
+        "mysqlPassword": "password",
+        "mysqlDatabase": "dbname"
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "jwtDetails": {
+        "jwtObject": { "userName": null },
+        "jwtSecretKey": "jwtSecretKey!0000",
+        "jwtExpiration": "3h"
+    },
+    "enableFormBody": false,
+    "useCookies": false
+}
