@@ -2,14 +2,14 @@
  * /=======================================================\
  * | Copyright (c) P7COMunications LLC                     |
  * | Author: Francisco Medina [pancho7532@p7com.net]       |
- * | Date: 30/Jan/2023                                     |
+ * | Date: 15/May/2023                                     |
  * |=======================================================|
- * |-> Purpose: User database schema                       |
+ * |-> Purpose: Account database schema                    |
  * \=======================================================/
  */
 const Sequelize = require("sequelize");
 const sequelizeInstance = require("../index.js");
-const user = sequelizeInstance.define("users", {
+const account = sequelizeInstance.define("accounts", {
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
@@ -18,6 +18,7 @@ const user = sequelizeInstance.define("users", {
     userName: Sequelize.STRING,
     password: Sequelize.STRING,
     isAdmin: Sequelize.BOOLEAN,
-    disabled: Sequelize.BOOLEAN
+    disabled: Sequelize.BOOLEAN,
+    sessionIAT: Sequelize.DATE
 });
-module.exports = user;
+module.exports = account;

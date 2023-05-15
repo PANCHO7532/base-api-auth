@@ -29,5 +29,5 @@ const sequelizeInstance = new Sequelize(configurationFile.databaseInfo.mysqlData
 });
 module.exports = sequelizeInstance;
 /****************** ADD YOUR MODELS AND RELATIONSHIPS HERE ******************/
-const user = require("./models/user.db");
+const account = require("./models/account.db");
 /****************************************************************************/

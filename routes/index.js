@@ -4,7 +4,9 @@ module.exports = function(app, options) {
     app.post("/auth/login", authController.login);
     app.get("/auth/logout", authController.logout);
     app.post("/auth/register", authController.register);
-    app.post("/auth/manage/:id", authController.manage);
-    app.delete("/auth/manage/:id", authController.manage);
+    app.put("/auth/manage", authController.manage);
+    app.delete("/auth/manage", authController.manage);
+    app.put("/auth/manage/:accountID", authController.manage);
+    app.delete("/auth/manage/:accountID", authController.manage);
     return app;
 }

@@ -1,9 +1,10 @@
 {
     "jwtDetails": {
-        "jwtObject": { "userName": null },
+        "jwtObject": { "accountID": 0, "userName": null },
         "jwtSecretKey": "jwtSecretKey!0000",
         "jwtExpiration": "3h"
     },
     "useCookies": false,
-    "firstUserIsAdmin": true
+    "firstUserIsAdmin": true,
+    "allowUserToSelfDelete": true
 }
